@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+#include <vector>
+#include <iterator>
+#include <unordered_map>
+
+using namespace std;
+project
+int main()
+{
+	string hb;
+	hb.push_back('5');
+	hb.insert(hb.begin(), '4');
+	hb.push_back('9');
+	cout << hb;
+
+	return 0;
+}
